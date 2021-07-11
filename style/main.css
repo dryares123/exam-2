@@ -32,11 +32,12 @@ i:hover {
 }
 
 .header-section {
-  background-image: url("./img/hero-bg.png");
+  background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
+
 .header-section__content {
   max-width: 1170px;
   margin: 0 auto;
@@ -53,21 +54,25 @@ i:hover {
   width: 100%;
   padding: 55px;
 }
+
 .header-section__navigation {
   text-decoration: none;
   color: white;
   margin-right: 62px;
   font-family: url("/fonts/Gotham Medium Regular/Gotham Medium Regular.ttf");
 }
+
 .header-section__navigation:hover {
   text-decoration: underline;
   cursor: pointer;
   color: black;
 }
+
 .header-section__logo {
   width: 245px;
   height: 60px;
 }
+
 .header-section__links {
   letter-spacing: 15px;
 }
@@ -84,11 +89,13 @@ i {
   padding-top: 260px;
   overflow: hidden;
 }
+
 .header-slider__h1 {
   font-weight: 800;
   font-size: 80px;
   padding-bottom: 40px;
 }
+
 .header-slider__p {
   font-size: 18px;
   padding-bottom: 315px;
@@ -110,12 +117,15 @@ i {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .about-section1__img1 {
   float: left;
 }
+
 .about-section1__card1 {
   text-align: left;
 }
+
 .about-section1__subtitle {
   max-width: 145px;
   font-weight: 300;
@@ -123,21 +133,25 @@ i {
   padding-top: 60px;
   padding-bottom: 15px;
 }
+
 .about-section1__title {
   max-width: 330px;
   font-weight: 300;
   font-size: 44px;
   padding-bottom: 40px;
 }
+
 .about-section1__description {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
   padding-bottom: 40px;
 }
+
 .about-section1__btn {
   margin-bottom: 60px;
 }
+
 .about-section1__geo {
   font-size: 18px;
   font-weight: 300;
@@ -165,13 +179,16 @@ i {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .about-section2__img2 {
   float: right;
   margin-bottom: 140px;
 }
+
 .about-section2__card2 {
   text-align: left;
 }
+
 .about-section2__subtitle {
   max-width: 145px;
   font-weight: 300;
@@ -179,21 +196,25 @@ i {
   padding-top: 60px;
   padding-bottom: 15px;
 }
+
 .about-section2__title {
   max-width: 330px;
   font-weight: 300;
   font-size: 44px;
   padding-bottom: 40px;
 }
+
 .about-section2__description {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
   padding-bottom: 40px;
 }
+
 .about-section2__btn {
   margin-bottom: 60px;
 }
+
 .about-section2__geo {
   font-size: 18px;
   font-weight: 300;
@@ -205,11 +226,12 @@ i {
 }
 
 .section-news {
-  background-image: url("./img/news-bg.png");
+  background-image: url("../img/news-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
+
 .section-news__header {
   color: white;
   font-size: 44px;
@@ -217,6 +239,7 @@ i {
   padding-top: 180px;
   padding-bottom: 100px;
 }
+
 .section-news__slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,6 +249,7 @@ i {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
 .section-news__slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,17 +259,20 @@ i {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .section-news__title {
   color: white;
   font-size: 22px;
   max-width: 320px;
   padding: 30px 20px;
 }
+
 .section-news__subtitle {
   color: white;
   padding: 15px 20px;
   padding-bottom: 20px;
 }
+
 .section-news__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,6 +287,7 @@ i {
 .section-gallery {
   padding-top: 100px;
 }
+
 .section-gallery__header {
   text-align: center;
   font-size: 44px;
@@ -378,16 +406,18 @@ i {
 }
 
 .section-footer {
-  background-image: url("./img/footer-bg.png");
+  background-image: url("../img/footer-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .section-footer__container {
   padding-top: 300px;
   max-width: 770px;
   margin: 0 auto;
   color: white;
 }
+
 .section-footer__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,10 +426,12 @@ i {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .section-footer__p {
   font-size: 18px;
   padding-top: 45px;
 }
+
 .section-footer__nav {
   letter-spacing: 15px;
 }
@@ -408,3 +440,4 @@ i {
   font-size: 18px;
   color: white;
 }
+/*# sourceMappingURL=main.css.map */
