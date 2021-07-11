@@ -1,0 +1,59 @@
+.section-contact__map {
+    width: 100%;
+    position: relative;
+}
+
+.gallery-contact__container {
+    width: 770px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 100;
+    margin-top: 5200px;
+}
+
+.gallery-contact__content {
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+}
+.gallery-contact__inputs-style {
+    margin-top: 40px;
+}
+
+.gallery-contact__h2 {
+    padding-top: 95px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 55px;
+}
+
+.gallery-contact__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 40px;
+}
+
+.fa-map-marker-alt {
+    color: blue;
+    font-size: 14px;
+}
+
+.fa-phone-alt {
+    color: blue;
+    font-size: 14px;
+}
+
+.fa-envelope {
+    color: blue;
+    font-size: 14px;
+}
+
+.fa-clock {
+    color: blue;
+    font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.section-footer {
+    background-image: url("/img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container {
+        padding-top: 300px;
+        max-width: 770px;
+        margin: 0 auto;
+        color: white;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__p {
+        font-size: 18px;
+        padding-top: 45px;
+    }
+    &__nav {
+        letter-spacing: 15px;
+    }
+}
+
+i {
+    font-size: 18px;
+    color: white;
+}
+

@@ -1,7 +1,30 @@
 .btn {
-    /* */
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 18px 42px;
+    font-weight: 300;
+    font-size: 14px;
 }
 
-h1 {
-    color: $color-red;
+i:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: skew(-10deg);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
