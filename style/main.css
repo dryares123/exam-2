@@ -32,7 +32,7 @@ i:hover {
 }
 
 .header-section {
-  background-image: url("/img/hero-bg.png");
+  background-image: url("./img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -226,7 +226,7 @@ i {
 }
 
 .section-news {
-  background-image: url("/img/news-bg.png");
+  background-image: url("./img/news-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -406,7 +406,7 @@ i {
 }
 
 .section-footer {
-  background-image: url("/img/footer-bg.png");
+  background-image: url("./img/footer-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
